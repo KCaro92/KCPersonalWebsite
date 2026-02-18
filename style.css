@@ -1,0 +1,288 @@
+/* Add a dark blue background color to the top navigation */
+.topnav {
+  background-color: #070846;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f6f5f5;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #0a2857;
+  color: rgb(46, 185, 173);
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #5d94c7;
+  color: white;
+}
+
+/* Footer CSS styling*/
+.site-footer {
+  color: #f6f5f5; 
+  background-color: #070846;             
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px;          
+  font-size: 14px;
+  
+}
+.site-footer a {
+  color: #f6f5f5; /* light text */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.site-footer a:hover {
+  text-decoration: underline;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.site-footer {
+  margin-top: auto;
+}
+
+/*CSS styling for index div */
+.index-page {
+   background-image: url("images/modernbackground.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.index-description{
+    background-color: rgba(0, 0, 0, 0.6); 
+  color: white;
+  padding: 30px;
+  margin: 40px auto;
+  max-width: 900px;
+  width: 90%;
+  border-radius: 12px;
+  text-align: center;
+  font-size: large;
+}
+.index-description img {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* CSS styling for Project div */
+
+.projects-page {
+  background-image: url("images/stars.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.project-description {
+  background-color: rgba(0, 0, 0, 0.6); 
+  color: white;
+  padding: 30px;
+  margin: 40px auto;
+  max-width: 900px;
+  width: 90%;
+  border-radius: 12px;
+  text-align: center;
+  font-size: large;
+}
+
+.project-description img {
+  display: block;
+  margin: 20px auto; 
+  width: 100%;
+  max-width: 600px;
+  border-radius: 10px;
+}
+.project-description h2 {
+  margin-top: 40px;
+}
+
+/* CSS for experiences */
+
+.experiences-page {
+  background-image: url("images/SkillsUSA.jpg");
+  background-size: 250px;      
+  background-repeat: repeat;
+  background-position: top left;
+  background-attachment: fixed;
+}
+.experiences-description {
+  background-color: rgb(0, 0, 0); 
+  color: rgb(248, 238, 238);
+  padding: 30px;
+  margin: 40px auto;
+  max-width: 900px;
+  width: 90%;
+  border-radius: 12px;
+  text-align: center;
+  font-size: large;
+}
+.experiences-description img {
+  display: block;
+  margin: 20px auto; 
+  width: 100%;
+  max-width: 600px;
+  border-radius: 10px;
+}
+
+.my-video {
+  width: 100%;
+  max-width: 700px;
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+/* CSS for Hobbies */
+
+.hobbies-page {
+  background-image: url("images/crochetbackground.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-color: #d7e9f7;
+}
+
+.hobbies-description {
+  background-color: rgba(0, 0, 0, 0.6); 
+  color: white;
+  padding: 30px;
+  margin: 40px auto;
+  max-width: 900px;
+  width: 90%;
+  border-radius: 12px;
+  text-align: center;
+  font-size: large;
+}
+.slideshow {
+  width: 100%;
+  max-width: 600px;
+  height: 300px;
+  margin: 30px auto;
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  background-color: rgba(0, 0, 0, 0.6); 
+
+}
+
+.slideshow .slide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  animation: drift 105s infinite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000; 
+
+}
+
+.slideshow img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  border-radius: 12px;
+}
+
+/* 21 slides, 5 seconds each */
+.slideshow .slide:nth-child(1)  { animation-delay: 0s; }
+.slideshow .slide:nth-child(2)  { animation-delay: 5s; }
+.slideshow .slide:nth-child(3)  { animation-delay: 10s; }
+.slideshow .slide:nth-child(4)  { animation-delay: 15s; }
+.slideshow .slide:nth-child(5)  { animation-delay: 20s; }
+.slideshow .slide:nth-child(6)  { animation-delay: 25s; }
+.slideshow .slide:nth-child(7)  { animation-delay: 30s; }
+.slideshow .slide:nth-child(8)  { animation-delay: 35s; }
+.slideshow .slide:nth-child(9)  { animation-delay: 40s; }
+.slideshow .slide:nth-child(10) { animation-delay: 45s; }
+.slideshow .slide:nth-child(11) { animation-delay: 50s; }
+.slideshow .slide:nth-child(12) { animation-delay: 55s; }
+.slideshow .slide:nth-child(13) { animation-delay: 60s; }
+.slideshow .slide:nth-child(14) { animation-delay: 65s; }
+.slideshow .slide:nth-child(15) { animation-delay: 70s; }
+.slideshow .slide:nth-child(16) { animation-delay: 75s; }
+.slideshow .slide:nth-child(17) { animation-delay: 80s; }
+.slideshow .slide:nth-child(18) { animation-delay: 85s; }
+.slideshow .slide:nth-child(19) { animation-delay: 90s; }
+.slideshow .slide:nth-child(20) { animation-delay: 95s; }
+.slideshow .slide:nth-child(21) { animation-delay: 100s; }
+
+@keyframes drift {
+  0%   { opacity: 1; transform: translateX(0); }
+  70%  { opacity: 1; transform: translateX(20px); } 
+  90%  { opacity: 0; transform: translateX(40px); } 
+  100% { opacity: 0; transform: translateX(40px); }
+}
+
+/*CSS for contact */
+
+.contact-page {
+  background-image: url("images/modernbackground.jpg"); 
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.contact-description {
+  background-color: rgb(0, 0, 0);
+  color: rgb(248, 238, 238);
+  padding: 30px;
+  margin: 40px auto;
+  max-width: 900px;
+  width: 90%;
+  border-radius: 12px;
+  text-align: center;
+  font-size: large;
+}
+
+.contact-description img {
+  display: block;
+  margin: 20px auto;
+  width: 200px;
+  border-radius: 10px;
+}
+
+/*Media Queries*/
+
+@media (max-width: 600px) {
+  .topnav a {
+    display: block;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .experiences-description,
+  .project-description,
+  .hobbies-description,
+  .contact-description {
+    width: 95%;
+    margin: 20px auto;
+    padding: 20px;
+    font-size: medium;
+  }
+
+  img, video {
+    max-width: 100%;
+  }
+}
